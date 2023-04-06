@@ -1,3 +1,7 @@
 .lis {
     @apply font-bold text-lg mx-auto px-4
 }
+
+a{
+    @apply text-white
+}
