@@ -2,3 +2,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.iconnss{
+    @apply text-3xl text-center text-white hover:cursor-pointer
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+i{
+    text-shadow: 1px 1px black;
+}

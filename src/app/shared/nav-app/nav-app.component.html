@@ -1,14 +1,20 @@
-<header class="bg-cyan-500 pt-3 pb-3">
-    <nav class="flex justify-evenly">
-        <figure>
-            <img src="/assets/icon.jpeg" width="30" height="30" alt="img">
-        </figure>
-        <ul class="flex items-center">
-            <li class="lis"><a href="#"> Home </a></li>
-            <li class="lis"><a href="#"> Products </a></li>
-            <li class="lis"><a href="#"> About </a></li>
-            <li class="lis"><a href="#"> Contac </a></li>
-        </ul>
-    </nav>
+<header class="w-full bg-gradient-to-r from-sky-500 to-indigo-500">
+	<nav class="flex flex-row h-14 justify-between mx-4 items-center">
+		
+		<figure class="w-auto h-auto">
+			<i class="uil uil-icons iconnss"></i>
+		</figure>
 
+		<figure class="smartphones:hidden">
+			<i (click)="activeMenu()" class="uil uil-bars iconnss"></i>
+		</figure>
+
+		<ul [ngClass]="{'hidden': showMenu, 'responsiNav': !showMenu}">
+			<li><a href="/home"> Home </a></li>
+			<li><a href="/home"> About </a></li>
+			<li><a href="/home"> Contac </a></li>
+		</ul>
+
+
+	</nav>
 </header>

@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-app.component.css']
 })
 export class NavAppComponent {
+  
+  showMenu = false;
+
+  activeMenu(){
+    this.showMenu = !this.showMenu;
+  }
 
 }

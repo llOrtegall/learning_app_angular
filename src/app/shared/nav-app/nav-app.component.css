@@ -1,7 +1,16 @@
-.lis {
-    @apply font-bold text-lg mx-auto px-4
+.responsiNav{
+    @apply bg-gradient-to-r from-sky-500 to-indigo-500 absolute top-14
+    w-full h-96 right-0 flex flex-col items-center smartphones:hidden
+}
+
+.responsiNav li{
+    @apply flex items-center w-auto h-full
+}
+
+.responsiNav a{
+    @apply w-auto text-2xl text-white font-bold
 }
 
 a{
-    @apply text-white
+    text-shadow: 2px 2px black;
 }
