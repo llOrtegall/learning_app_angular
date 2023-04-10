@@ -1,16 +1,29 @@
-.responsiNav{
-    @apply bg-gradient-to-r from-sky-500 to-indigo-500 absolute top-14
-    w-full h-96 right-0 flex flex-col items-center smartphones:hidden
+.responsiNav {
+    @apply bg-gradient-to-r from-sky-500 to-indigo-500 absolute top-14 w-full h-96 right-0 flex flex-col items-center smartphones: hidden
 }
 
-.responsiNav li{
+.responsiNav li {
     @apply flex items-center w-auto h-full
 }
 
-.responsiNav a{
+.responsiNav a {
     @apply w-auto text-2xl text-white font-bold
 }
 
-a{
+.responsiNav a {
     text-shadow: 2px 2px black;
+}
+
+@media (min-width: 427px) {
+    .normal_menu {
+        @apply flex mx-20 space-x-10
+    }
+
+    .normal_menu a {
+        @apply text-white font-bold text-xl
+    }
+
+    .normal_menu a {
+        text-shadow: 2px 2px black;
+    }
 }
