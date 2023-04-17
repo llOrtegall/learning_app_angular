@@ -1,5 +1,5 @@
 .responsiNav {
-    @apply bg-gradient-to-r from-sky-500 to-indigo-500 absolute top-14 w-full h-96 right-0 flex flex-col items-center smartphones: hidden
+    @apply smartphones:hidden bg-gradient-to-r from-sky-500 to-indigo-500 absolute top-14 w-full h-96 right-0 flex flex-col items-center
 }
 
 .responsiNav li {
